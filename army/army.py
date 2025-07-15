@@ -1,3 +1,4 @@
+from .units import Pikeman, Archer, Knight
 class Army:
     def __init__(self, civilization):
         self.gold = 1000
